@@ -6,7 +6,23 @@
 
 ## 数据
 
+- O'neil
 
+  - ```shell
+    ./data/O'neil
+    ```
+
+- NCI-ALMANAC
+
+  - ```shell
+    ./data/NCI-ALMANAC
+    ```
+
+## 模型
+
+```shell
+./models/
+```
 
 ## 预训练
 
