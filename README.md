@@ -1,44 +1,40 @@
-## 环境
+# SMILESynergy
+
+### 环境
 
 - PyTorch > 1.1
 - RDkit
 - Scikit-learn
 
-## 数据
+### 数据
 
 - O'neil
 
-  - ```shell
-    ./data/O'neil
-    ```
-
+  - ./data/O'neil
+  
 - NCI-ALMANAC
+  - ./data/NCI-ALMANAC
+  
 
-  - ```shell
-    ./data/NCI-ALMANAC
-    ```
+### 模型
 
-## 模型
+- ./models/
 
-```shell
-./models/
-```
+### 预训练
 
-## 预训练
+- ./experments/build_corpus.py
+- ./experments/build_vocab.py
+- ./experments/pretrain_trfm.py
 
-- build_corpus.py
-- build_vocab.py
-- pretrain_trfm.py
+### 下游任务
 
-## 下游任务
+- ./experments/testing_all.ipynb
 
-- testing_all.ipynb
+### 结果处理
 
-## 结果处理
+- ./experments/result_prc.ipynb
 
-- result_prc.ipynb
+### 可视化分析
 
-## 可视化分析
-
-- graph.ipynb
+- ./graph/graph.ipynb
 
